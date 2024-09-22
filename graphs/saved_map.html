@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_229587c706370dc111243a4a09ae535b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    
+                <style>
+                    #float_image_b24e7cf31080f3cfcd02ba0602236287 {
+                        position: absolute;
+                        bottom: 0%;
+                        left: 110%;
+                        }
+                </style>
+            
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_229587c706370dc111243a4a09ae535b" ></div>
+        
+    
+            <img id="float_image_b24e7cf31080f3cfcd02ba0602236287" alt="float_image"
+                 src="<matplotlib.colorbar.Colorbar object at 0x157479f40>"
+                 style="z-index: 999999">
+            </img>
+            
+</body>
+<script>
+    
+    
+            var map_229587c706370dc111243a4a09ae535b = L.map(
+                "map_229587c706370dc111243a4a09ae535b",
+                {
+                    center: [48.85434349826781, 2.3454792069967856],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e2b19ae2c5c0a02a373f1fbe9d050dd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6e2b19ae2c5c0a02a373f1fbe9d050dd.addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+            var circle_marker_4cb37a8e43dcf52eb724b485a28a0318 = L.circleMarker(
+                [48.846028, 2.375429],
+                {"bubblingMouseEvents": true, "color": "#7e04ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7e04ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_8df23f9a97492c3dd46c96e3fe26a8be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a761db22152a291a037f06888e4a580 = $(`<div id="html_4a761db22152a291a037f06888e4a580" style="width: 100.0%; height: 100.0%;">28 boulevard Diderot</div>`)[0];
+                popup_8df23f9a97492c3dd46c96e3fe26a8be.setContent(html_4a761db22152a291a037f06888e4a580);
+            
+        
+
+        circle_marker_4cb37a8e43dcf52eb724b485a28a0318.bindPopup(popup_8df23f9a97492c3dd46c96e3fe26a8be)
+        ;
+
+        
+    
+    
+            var circle_marker_b92e753b3bfd091ab485a70bcbe74c32 = L.circleMarker(
+                [48.83436, 2.377],
+                {"bubblingMouseEvents": true, "color": "#c73a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c73a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_2f1bc45107262833ae0b64fe8c700b57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f17941dc56ef33c1c07b657f74ee8f = $(`<div id="html_86f17941dc56ef33c1c07b657f74ee8f" style="width: 100.0%; height: 100.0%;">39 quai François Mauriac</div>`)[0];
+                popup_2f1bc45107262833ae0b64fe8c700b57.setContent(html_86f17941dc56ef33c1c07b657f74ee8f);
+            
+        
+
+        circle_marker_b92e753b3bfd091ab485a70bcbe74c32.bindPopup(popup_2f1bc45107262833ae0b64fe8c700b57)
+        ;
+
+        
+    
+    
+            var circle_marker_2cd19dbdf29446b6fb3ae669176742e1 = L.circleMarker(
+                [48.85372, 2.35702],
+                {"bubblingMouseEvents": true, "color": "#ae1a35", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ae1a35", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_21eecf4d83f210d655c08f914f28b070 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8de919a82a931e859f213d508075ae0d = $(`<div id="html_8de919a82a931e859f213d508075ae0d" style="width: 100.0%; height: 100.0%;">18 quai de l'Hôtel de Ville</div>`)[0];
+                popup_21eecf4d83f210d655c08f914f28b070.setContent(html_8de919a82a931e859f213d508075ae0d);
+            
+        
+
+        circle_marker_2cd19dbdf29446b6fb3ae669176742e1.bindPopup(popup_21eecf4d83f210d655c08f914f28b070)
+        ;
+
+        
+    
+    
+            var circle_marker_f2943f585b2cb3bdf73f9548fe715403 = L.circleMarker(
+                [48.8484, 2.27586],
+                {"bubblingMouseEvents": true, "color": "#b31e10", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b31e10", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_06c6dc966862d3f6cbfab3ce3ef90d19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52f9cacb4756923e54dcce5b44d8eae0 = $(`<div id="html_52f9cacb4756923e54dcce5b44d8eae0" style="width: 100.0%; height: 100.0%;">Voie Georges Pompidou</div>`)[0];
+                popup_06c6dc966862d3f6cbfab3ce3ef90d19.setContent(html_52f9cacb4756923e54dcce5b44d8eae0);
+            
+        
+
+        circle_marker_f2943f585b2cb3bdf73f9548fe715403.bindPopup(popup_06c6dc966862d3f6cbfab3ce3ef90d19)
+        ;
+
+        
+    
+    
+            var circle_marker_a0f608201c6b075b1668c0f2f3d5f9e3 = L.circleMarker(
+                [48.86149, 2.37376],
+                {"bubblingMouseEvents": true, "color": "#8204ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8204ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_f47b5ee9d3899b75b1a83fe1dead1bae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2eb547c14da26bb92efa46a191f237b = $(`<div id="html_f2eb547c14da26bb92efa46a191f237b" style="width: 100.0%; height: 100.0%;">67 boulevard Voltaire SE-NO</div>`)[0];
+                popup_f47b5ee9d3899b75b1a83fe1dead1bae.setContent(html_f2eb547c14da26bb92efa46a191f237b);
+            
+        
+
+        circle_marker_a0f608201c6b075b1668c0f2f3d5f9e3.bindPopup(popup_f47b5ee9d3899b75b1a83fe1dead1bae)
+        ;
+
+        
+    
+    
+            var circle_marker_c0a19af8b0ab80ee4c4ca4f3c5a965bf = L.circleMarker(
+                [48.89172, 2.38531],
+                {"bubblingMouseEvents": true, "color": "#df7200", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#df7200", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_22d2e4499b8ec7c082add10f2d1ea4f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c670996d5e9f3891e7ac41223f6165dd = $(`<div id="html_c670996d5e9f3891e7ac41223f6165dd" style="width: 100.0%; height: 100.0%;">Face au 48 quai de la marne</div>`)[0];
+                popup_22d2e4499b8ec7c082add10f2d1ea4f9.setContent(html_c670996d5e9f3891e7ac41223f6165dd);
+            
+        
+
+        circle_marker_c0a19af8b0ab80ee4c4ca4f3c5a965bf.bindPopup(popup_22d2e4499b8ec7c082add10f2d1ea4f9)
+        ;
+
+        
+    
+    
+            var circle_marker_a182a980f63bd33e85d00471bba0ad7d = L.circleMarker(
+                [48.890457, 2.368852],
+                {"bubblingMouseEvents": true, "color": "#b01c22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b01c22", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_359314e7d5ce13787a7e5d9bf3381e2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d179f416cadf9ea0b8df688ec72fba2 = $(`<div id="html_4d179f416cadf9ea0b8df688ec72fba2" style="width: 100.0%; height: 100.0%;">Face 104 rue d'Aubervilliers</div>`)[0];
+                popup_359314e7d5ce13787a7e5d9bf3381e2b.setContent(html_4d179f416cadf9ea0b8df688ec72fba2);
+            
+        
+
+        circle_marker_a182a980f63bd33e85d00471bba0ad7d.bindPopup(popup_359314e7d5ce13787a7e5d9bf3381e2b)
+        ;
+
+        
+    
+    
+            var circle_marker_691d3a8f1c1b403f23550c8b4be4eeac = L.circleMarker(
+                [48.829523, 2.38699],
+                {"bubblingMouseEvents": true, "color": "#b11d1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b11d1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_87f92bbe2311e360be773039bfc2ad47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f622ec84c05e2928f877ab814e391bc7 = $(`<div id="html_f622ec84c05e2928f877ab814e391bc7" style="width: 100.0%; height: 100.0%;">Face au 70 quai de Bercy</div>`)[0];
+                popup_87f92bbe2311e360be773039bfc2ad47.setContent(html_f622ec84c05e2928f877ab814e391bc7);
+            
+        
+
+        circle_marker_691d3a8f1c1b403f23550c8b4be4eeac.bindPopup(popup_87f92bbe2311e360be773039bfc2ad47)
+        ;
+
+        
+    
+    
+            var circle_marker_9ab9948541e67560f28bcd23cbed5a79 = L.circleMarker(
+                [48.82636, 2.30303],
+                {"bubblingMouseEvents": true, "color": "#be2c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#be2c00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_9f1a72ef8333e1309a78703768cd0bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21f409e4cf688f8d72cd83220426bb5d = $(`<div id="html_21f409e4cf688f8d72cd83220426bb5d" style="width: 100.0%; height: 100.0%;">6 rue Julia Bartet</div>`)[0];
+                popup_9f1a72ef8333e1309a78703768cd0bdd.setContent(html_21f409e4cf688f8d72cd83220426bb5d);
+            
+        
+
+        circle_marker_9ab9948541e67560f28bcd23cbed5a79.bindPopup(popup_9f1a72ef8333e1309a78703768cd0bdd)
+        ;
+
+        
+    
+    
+            var circle_marker_3bdc33234e0a4e2ddd5f95aa4aa0d056 = L.circleMarker(
+                [48.89141, 2.38482],
+                {"bubblingMouseEvents": true, "color": "#ca3f00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ca3f00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_412e1d981033c3f7c904a462372706d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31ebbce9237939832098db945e922436 = $(`<div id="html_31ebbce9237939832098db945e922436" style="width: 100.0%; height: 100.0%;">Face au 25 quai de l'Oise</div>`)[0];
+                popup_412e1d981033c3f7c904a462372706d1.setContent(html_31ebbce9237939832098db945e922436);
+            
+        
+
+        circle_marker_3bdc33234e0a4e2ddd5f95aa4aa0d056.bindPopup(popup_412e1d981033c3f7c904a462372706d1)
+        ;
+
+        
+    
+    
+            var circle_marker_8f0c372f6c5956e162d4de1cbcd339e7 = L.circleMarker(
+                [48.840801, 2.333233],
+                {"bubblingMouseEvents": true, "color": "#b31e10", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b31e10", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_91d8a15c03f2fef69f91e618d4c63ee9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a040bacf856536aeb09577bbd194591 = $(`<div id="html_6a040bacf856536aeb09577bbd194591" style="width: 100.0%; height: 100.0%;">152 boulevard du Montparnasse</div>`)[0];
+                popup_91d8a15c03f2fef69f91e618d4c63ee9.setContent(html_6a040bacf856536aeb09577bbd194591);
+            
+        
+
+        circle_marker_8f0c372f6c5956e162d4de1cbcd339e7.bindPopup(popup_91d8a15c03f2fef69f91e618d4c63ee9)
+        ;
+
+        
+    
+    
+            var circle_marker_3c39c6ca3394b886c6437497262b83db = L.circleMarker(
+                [48.85735, 2.35211],
+                {"bubblingMouseEvents": true, "color": "#eeab00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eeab00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_8ad1bd8018ade60a3098bce03b282819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88490e3b6c6c08f88333642fc699300a = $(`<div id="html_88490e3b6c6c08f88333642fc699300a" style="width: 100.0%; height: 100.0%;">Totem 64 Rue de Rivoli</div>`)[0];
+                popup_8ad1bd8018ade60a3098bce03b282819.setContent(html_88490e3b6c6c08f88333642fc699300a);
+            
+        
+
+        circle_marker_3c39c6ca3394b886c6437497262b83db.bindPopup(popup_8ad1bd8018ade60a3098bce03b282819)
+        ;
+
+        
+    
+    
+            var circle_marker_4dad92167cc8dfeca459038801c320fc = L.circleMarker(
+                [48.86282, 2.31061],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#000000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_02511f5d6ccdc9523fdb34c5afeb850f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a3a7ea1e32f39f5f6881e973fb95285 = $(`<div id="html_3a3a7ea1e32f39f5f6881e973fb95285" style="width: 100.0%; height: 100.0%;">Pont des Invalides S-N</div>`)[0];
+                popup_02511f5d6ccdc9523fdb34c5afeb850f.setContent(html_3a3a7ea1e32f39f5f6881e973fb95285);
+            
+        
+
+        circle_marker_4dad92167cc8dfeca459038801c320fc.bindPopup(popup_02511f5d6ccdc9523fdb34c5afeb850f)
+        ;
+
+        
+    
+    
+            var circle_marker_e6455dfaf610cdc2b005d2f1cca8905e = L.circleMarker(
+                [48.86378, 2.32003],
+                {"bubblingMouseEvents": true, "color": "#6501d5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6501d5", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_07a68c86ac5a850d813acaf61294d8e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac557196c9961c544aac1841f3ed779a = $(`<div id="html_ac557196c9961c544aac1841f3ed779a" style="width: 100.0%; height: 100.0%;">Pont de la Concorde S-N</div>`)[0];
+                popup_07a68c86ac5a850d813acaf61294d8e5.setContent(html_ac557196c9961c544aac1841f3ed779a);
+            
+        
+
+        circle_marker_e6455dfaf610cdc2b005d2f1cca8905e.bindPopup(popup_07a68c86ac5a850d813acaf61294d8e5)
+        ;
+
+        
+    
+    
+            var circle_marker_cd5ada3dcce13252e38ce9723cad5b72 = L.circleMarker(
+                [48.86284, 2.310345],
+                {"bubblingMouseEvents": true, "color": "#2d0032", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2d0032", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_821dad2184051124c65054fa7beb8106 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a57dbb54117a316697e297ee4d0f62cc = $(`<div id="html_a57dbb54117a316697e297ee4d0f62cc" style="width: 100.0%; height: 100.0%;">Pont des Invalides N-S</div>`)[0];
+                popup_821dad2184051124c65054fa7beb8106.setContent(html_a57dbb54117a316697e297ee4d0f62cc);
+            
+        
+
+        circle_marker_cd5ada3dcce13252e38ce9723cad5b72.bindPopup(popup_821dad2184051124c65054fa7beb8106)
+        ;
+
+        
+    
+    
+            var circle_marker_813976b20dd041bc152a7c0bfdf9aecf = L.circleMarker(
+                [48.830331, 2.400551],
+                {"bubblingMouseEvents": true, "color": "#a11096", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a11096", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_81b0a69275e13c7205a22f9ef7255f49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c35f407c19ffb4efb89d3658debb5f1e = $(`<div id="html_c35f407c19ffb4efb89d3658debb5f1e" style="width: 100.0%; height: 100.0%;">Face au 8 avenue de la porte de Charenton</div>`)[0];
+                popup_81b0a69275e13c7205a22f9ef7255f49.setContent(html_c35f407c19ffb4efb89d3658debb5f1e);
+            
+        
+
+        circle_marker_813976b20dd041bc152a7c0bfdf9aecf.bindPopup(popup_81b0a69275e13c7205a22f9ef7255f49)
+        ;
+
+        
+    
+    
+            var circle_marker_6904924d1571df6641cfe8e504b3f8b5 = L.circleMarker(
+                [48.86461, 2.40969],
+                {"bubblingMouseEvents": true, "color": "#a81565", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a81565", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_7cdfa299998db09e04d2a4c66a6d8496 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e400c2018ad7a085bd88c8a487150ab = $(`<div id="html_2e400c2018ad7a085bd88c8a487150ab" style="width: 100.0%; height: 100.0%;">Face au 4 avenue de la porte de Bagnolet</div>`)[0];
+                popup_7cdfa299998db09e04d2a4c66a6d8496.setContent(html_2e400c2018ad7a085bd88c8a487150ab);
+            
+        
+
+        circle_marker_6904924d1571df6641cfe8e504b3f8b5.bindPopup(popup_7cdfa299998db09e04d2a4c66a6d8496)
+        ;
+
+        
+    
+    
+            var circle_marker_b01ec1d71ba18775cb95abe8060f29e3 = L.circleMarker(
+                [48.84223, 2.36811],
+                {"bubblingMouseEvents": true, "color": "#b11d1c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b11d1c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_62cd76c57aa4624893d0fe2bdb0b587d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8f47a9df8568dadf06a29773c8bd880 = $(`<div id="html_c8f47a9df8568dadf06a29773c8bd880" style="width: 100.0%; height: 100.0%;">Pont Charles De Gaulle</div>`)[0];
+                popup_62cd76c57aa4624893d0fe2bdb0b587d.setContent(html_c8f47a9df8568dadf06a29773c8bd880);
+            
+        
+
+        circle_marker_b01ec1d71ba18775cb95abe8060f29e3.bindPopup(popup_62cd76c57aa4624893d0fe2bdb0b587d)
+        ;
+
+        
+    
+    
+            var circle_marker_0645b828a8e0d32b36352a0c071916d0 = L.circleMarker(
+                [48.85209, 2.28508],
+                {"bubblingMouseEvents": true, "color": "#cc4300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc4300", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_ba0cbbb5612b288166037577c76c4a37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cdce2b288d2a2435bd02c41581d7bbb = $(`<div id="html_3cdce2b288d2a2435bd02c41581d7bbb" style="width: 100.0%; height: 100.0%;">36 quai de Grenelle</div>`)[0];
+                popup_ba0cbbb5612b288166037577c76c4a37.setContent(html_3cdce2b288d2a2435bd02c41581d7bbb);
+            
+        
+
+        circle_marker_0645b828a8e0d32b36352a0c071916d0.bindPopup(popup_ba0cbbb5612b288166037577c76c4a37)
+        ;
+
+        
+    
+    
+            var circle_marker_d2f1f3a32d91d87a0d65304cf8e2c551 = L.circleMarker(
+                [48.83421, 2.26542],
+                {"bubblingMouseEvents": true, "color": "#4b0084", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4b0084", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_6fca128f0e5ea92c88211b7e52d70419 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49391fba3c182aadff6566c6ab32c650 = $(`<div id="html_49391fba3c182aadff6566c6ab32c650" style="width: 100.0%; height: 100.0%;">Face au 40 quai D'Issy</div>`)[0];
+                popup_6fca128f0e5ea92c88211b7e52d70419.setContent(html_49391fba3c182aadff6566c6ab32c650);
+            
+        
+
+        circle_marker_d2f1f3a32d91d87a0d65304cf8e2c551.bindPopup(popup_6fca128f0e5ea92c88211b7e52d70419)
+        ;
+
+        
+    
+    
+            var circle_marker_0371354a4f9341d7420b380a27b023fa = L.circleMarker(
+                [48.83848, 2.37587],
+                {"bubblingMouseEvents": true, "color": "#b42003", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b42003", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_bb8513307289d4bb211a44b49445c02f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6531bc1cdd1a99d03ba574175468016e = $(`<div id="html_6531bc1cdd1a99d03ba574175468016e" style="width: 100.0%; height: 100.0%;">Pont de Bercy</div>`)[0];
+                popup_bb8513307289d4bb211a44b49445c02f.setContent(html_6531bc1cdd1a99d03ba574175468016e);
+            
+        
+
+        circle_marker_0371354a4f9341d7420b380a27b023fa.bindPopup(popup_bb8513307289d4bb211a44b49445c02f)
+        ;
+
+        
+    
+    
+            var circle_marker_5788f75837d942ca40b45354d74710ef = L.circleMarker(
+                [48.86502, 2.35387],
+                {"bubblingMouseEvents": true, "color": "#d96000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d96000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_d14f90d2a44f51fbcdef87c4ab381380 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ea8a7173064ea5add01eb329b889c02 = $(`<div id="html_2ea8a7173064ea5add01eb329b889c02" style="width: 100.0%; height: 100.0%;">38 rue Turbigo</div>`)[0];
+                popup_d14f90d2a44f51fbcdef87c4ab381380.setContent(html_2ea8a7173064ea5add01eb329b889c02);
+            
+        
+
+        circle_marker_5788f75837d942ca40b45354d74710ef.bindPopup(popup_d14f90d2a44f51fbcdef87c4ab381380)
+        ;
+
+        
+    
+    
+            var circle_marker_e0ada6f369715c911fb7c583c719afdd = L.circleMarker(
+                [48.86288, 2.31179],
+                {"bubblingMouseEvents": true, "color": "#d65800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d65800", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_8d547367f5f129f883f8cf700c07d1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1e829b6eaf7178bbc0dcc391f27c1ed = $(`<div id="html_a1e829b6eaf7178bbc0dcc391f27c1ed" style="width: 100.0%; height: 100.0%;">Quai d'Orsay</div>`)[0];
+                popup_8d547367f5f129f883f8cf700c07d1f5.setContent(html_a1e829b6eaf7178bbc0dcc391f27c1ed);
+            
+        
+
+        circle_marker_e0ada6f369715c911fb7c583c719afdd.bindPopup(popup_8d547367f5f129f883f8cf700c07d1f5)
+        ;
+
+        
+    
+    
+            var circle_marker_a473aa90288f332ebaabaf26300972ef = L.circleMarker(
+                [48.85013, 2.35423],
+                {"bubblingMouseEvents": true, "color": "#de6f00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#de6f00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_8a1e6c12a07bcef299a8475bd292a3f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6709533e6c6f960c53a626ce16617d62 = $(`<div id="html_6709533e6c6f960c53a626ce16617d62" style="width: 100.0%; height: 100.0%;">27 quai de la Tournelle</div>`)[0];
+                popup_8a1e6c12a07bcef299a8475bd292a3f5.setContent(html_6709533e6c6f960c53a626ce16617d62);
+            
+        
+
+        circle_marker_a473aa90288f332ebaabaf26300972ef.bindPopup(popup_8a1e6c12a07bcef299a8475bd292a3f5)
+        ;
+
+        
+    
+    
+            var circle_marker_29268375aa7a57efa8ea3c89836f19cd = L.circleMarker(
+                [48.84201, 2.36729],
+                {"bubblingMouseEvents": true, "color": "#d65800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d65800", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_64e76df802ae1e57359491bd479eefa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2624accd2ef082d7d3b29466dc753c39 = $(`<div id="html_2624accd2ef082d7d3b29466dc753c39" style="width: 100.0%; height: 100.0%;">Totem 85 quai d'Austerlitz</div>`)[0];
+                popup_64e76df802ae1e57359491bd479eefa2.setContent(html_2624accd2ef082d7d3b29466dc753c39);
+            
+        
+
+        circle_marker_29268375aa7a57efa8ea3c89836f19cd.bindPopup(popup_64e76df802ae1e57359491bd479eefa2)
+        ;
+
+        
+    
+    
+            var circle_marker_2bc9173eb683b64dfdcdbc24aa9487b9 = L.circleMarker(
+                [48.86462, 2.31444],
+                {"bubblingMouseEvents": true, "color": "#cf4900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cf4900", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_461a8f15310197691ac9a474fd7dd313 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f6ad2ac9434f0573de9433ab9fbc817 = $(`<div id="html_2f6ad2ac9434f0573de9433ab9fbc817" style="width: 100.0%; height: 100.0%;">Totem Cours la Reine</div>`)[0];
+                popup_461a8f15310197691ac9a474fd7dd313.setContent(html_2f6ad2ac9434f0573de9433ab9fbc817);
+            
+        
+
+        circle_marker_2bc9173eb683b64dfdcdbc24aa9487b9.bindPopup(popup_461a8f15310197691ac9a474fd7dd313)
+        ;
+
+        
+    
+    
+            var circle_marker_d033480c75931e19515104f619a2b99e = L.circleMarker(
+                [48.86377, 2.35096],
+                {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_da2618d4132c71510c6af6780b96764d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c75a87dc229bad535ba850a3996ba16d = $(`<div id="html_c75a87dc229bad535ba850a3996ba16d" style="width: 100.0%; height: 100.0%;">Totem 73 boulevard de Sébastopol</div>`)[0];
+                popup_da2618d4132c71510c6af6780b96764d.setContent(html_c75a87dc229bad535ba850a3996ba16d);
+            
+        
+
+        circle_marker_d033480c75931e19515104f619a2b99e.bindPopup(popup_da2618d4132c71510c6af6780b96764d)
+        ;
+
+        
+    
+    
+            var circle_marker_05eda31bf344e8559e8808a45bdec116 = L.circleMarker(
+                [48.84638, 2.31529],
+                {"bubblingMouseEvents": true, "color": "#bf2d00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bf2d00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_f7f9c975b3c864fac4e9e5519b162969 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_125ae07df5b439391f81047cdcf635b4 = $(`<div id="html_125ae07df5b439391f81047cdcf635b4" style="width: 100.0%; height: 100.0%;">90 Rue De Sèvres</div>`)[0];
+                popup_f7f9c975b3c864fac4e9e5519b162969.setContent(html_125ae07df5b439391f81047cdcf635b4);
+            
+        
+
+        circle_marker_05eda31bf344e8559e8808a45bdec116.bindPopup(popup_f7f9c975b3c864fac4e9e5519b162969)
+        ;
+
+        
+    
+    
+            var circle_marker_d6ec3de96330b836207f0a8b4c2483bc = L.circleMarker(
+                [48.88529, 2.32666],
+                {"bubblingMouseEvents": true, "color": "#b01b29", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b01b29", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_d4490dcf8fce18f2a350b468bfaabfd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be0b5074cb07069f12d80f0301d42714 = $(`<div id="html_be0b5074cb07069f12d80f0301d42714" style="width: 100.0%; height: 100.0%;">20 Avenue de Clichy</div>`)[0];
+                popup_d4490dcf8fce18f2a350b468bfaabfd9.setContent(html_be0b5074cb07069f12d80f0301d42714);
+            
+        
+
+        circle_marker_d6ec3de96330b836207f0a8b4c2483bc.bindPopup(popup_d4490dcf8fce18f2a350b468bfaabfd9)
+        ;
+
+        
+    
+    
+            var circle_marker_a06416037e4013ee2223d8c13bd6139c = L.circleMarker(
+                [48.83977, 2.30198],
+                {"bubblingMouseEvents": true, "color": "#9c0db7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9c0db7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_229587c706370dc111243a4a09ae535b);
+        
+    
+        var popup_43df02f099a74c8bb5b84a61a89d3f27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_078413cf36c5e48bacf435b1610ff909 = $(`<div id="html_078413cf36c5e48bacf435b1610ff909" style="width: 100.0%; height: 100.0%;">254 rue de Vaugirard</div>`)[0];
+                popup_43df02f099a74c8bb5b84a61a89d3f27.setContent(html_078413cf36c5e48bacf435b1610ff909);
+            
+        
+
+        circle_marker_a06416037e4013ee2223d8c13bd6139c.bindPopup(popup_43df02f099a74c8bb5b84a61a89d3f27)
+        ;
+
+        
+    
+    
+            tile_layer_6e2b19ae2c5c0a02a373f1fbe9d050dd.addTo(map_229587c706370dc111243a4a09ae535b);
+        
+</script>
+</html>
