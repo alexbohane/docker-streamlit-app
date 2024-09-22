@@ -41,16 +41,27 @@ Matplotlib, Folium: For data visualization.
 ###  Project Structure
 /docker-streamlit-app
     ├── Dockerfile
+    
     ├── requirements.txt
+    
     ├── streamlit-app.py
+    
     ├── graph_generation.ipynb
+    
     └── data/
+    
         └── train.parquet
+        
         └── test.parquet
+        
     └── graphs/
+    
         └── colorbar.png
+        
         └── month_count.png
+
         └── saved_map.html
+        
         └── week_count.png
 
 ### Contributors
