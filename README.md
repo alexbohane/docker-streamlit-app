@@ -22,12 +22,12 @@ This project demonstrates the use of Streamlit and Docker in a data science cont
    cd docker-streamlit-app
 
 2. **Build Docker Container**
-
-docker build -t bike-count-app .
+   ```bash
+   docker build -t bike-count-app .
 
 3. **RUN Docker Container**
-
-docker run -dp 127.0.0.1:8540:8540 bike-count-app
+   ```bash
+   docker run -dp 127.0.0.1:8540:8540 bike-count-app
 
 This command runs the container and maps port 8540 of the container to port 8540 on your host, allowing you to access the Streamlit app by navigating to http://localhost:8540 in your browser (recommended not to use Safari).
 
