@@ -67,7 +67,9 @@ Matplotlib, Folium: For data visualization.
         └── week_count.png
 
 ### Contributors
+
 Alex Bohane, GitHub username: alexbohane
+
 Nacer Hadni (my partner for the previous DS project which this project aims to visualise)
 
 ### License
