@@ -32,10 +32,15 @@ This project demonstrates the use of Streamlit and Docker in a data science cont
 This command runs the container and maps port 8540 of the container to port 8540 on your host, allowing you to access the Streamlit app by navigating to http://localhost:8540 in your browser (recommended not to use Safari).
 
 ###  Technologies Used
+
 Python: Main programming language.
+
 Streamlit: For creating the app.
+
 Docker: For containerizing the application.
+
 Pandas, Numpy: For data manipulation and calculations.
+
 Matplotlib, Folium: For data visualization.
 
 ###  Project Structure
