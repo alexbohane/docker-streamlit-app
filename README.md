@@ -39,7 +39,9 @@ Pandas, Numpy: For data manipulation and calculations.
 Matplotlib, Folium: For data visualization.
 
 ###  Project Structure
+
 /docker-streamlit-app
+
     ├── Dockerfile
     
     ├── requirements.txt
